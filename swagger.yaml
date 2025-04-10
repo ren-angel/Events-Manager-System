@@ -1,0 +1,32 @@
+openapi: 3.0.0
+info:
+  title: Events Manager API
+  version: 1.0.0
+  description: An API for managing events and user subscriptions on them.
+servers:
+  - url: https://api.example.com/v1
+paths:
+#   /users:
+#     get:
+#       summary: Retrieves a list of users.
+#       responses:
+#         '200':
+#           description: A JSON array of user objects.
+#           content:
+#             application/json:
+#               schema:
+#                 type: array
+#                 items:
+#                   $ref: '#/components/schemas/User'
+# components:
+#   schemas:
+#     User:
+#       type: object
+#       properties:
+#         id:
+#           type: integer
+#         name:
+#           type: string
+#       required:
+#         - id
+#         - name
